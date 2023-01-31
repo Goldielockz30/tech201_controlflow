@@ -1,14 +1,17 @@
 
 
 
-# age = input("What is your age?")
-# if age.isdigit() and int(age) < 117 or int(age) < 1:
-#    print(f"You are {age} years old ")
-#
-# else:
-#    print("Please provide your answer in digits and below 117")
-#
-age = input("What is your age?")
+user_prompt = True
+
+while user_prompt:
+    age = input("What is your age?")
+    if age.isdigit() and int(age) < 117 and int(age) > 1:
+         user_prompt = False
+    else:
+         print("Please provide your answer in digits, with age 1 and about and below 117")
+
+
+
 
 if int(age.isdigit()) and int(age) <= int("11") and int(age) > int("1"):
     print("You can watch U rated movies and PG")
@@ -21,9 +24,5 @@ else:
 
 
 
-# elif age == "15":
-#    print("You must be 18 to watch 15 rated movies in the cinema")
-# elif age >= "18":
-#    print("You can watch this movie since you are 18 or over")
 
 
