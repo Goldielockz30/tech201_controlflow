@@ -2,9 +2,9 @@
 
 hours = input("How many hours have you worked this week?")
 payrate = input("How much do you get paid by the hour")
-
+overtime = input("How many hours of over time")
 pay = int(hours) * int(payrate)
-over = int(payrate) * 1.5
+over = int(payrate) * 1.5 * int(overtime)
 
 if hours == "40":
     print(f"You have worked {hours} hours and you will be paid {pay}")

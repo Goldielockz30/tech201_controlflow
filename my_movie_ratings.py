@@ -1,12 +1,12 @@
 
 
 
-# age = input("What is your age?")
-# if age.isdigit() and int(age) < 117:
-#     print(f"You are {age} years old ")
-#
-# else:
-#     print("Please provide your answer in digits and below 117")
+age = input("What is your age?")
+if age.isdigit() and int(age) < 117:
+   print(f"You are {age} years old ")
+
+else:
+   print("Please provide your answer in digits and below 117")
 
 age = input("What is your age?")
 
