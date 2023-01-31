@@ -4,11 +4,14 @@ hours = input("How many hours have you worked this week?")
 payrate = input("How much do you get paid by the hour")
 
 pay = int(hours) * int(payrate)
+over = int(payrate) * 1.5
 
 if hours == "40":
     print(f"You have worked {hours} hours and you will be paid {pay}")
 elif hours > "40":
-    print(f"you have worked more than 40 hours")
+    print(f"you have worked {hours} hours and you will be paid {pay + over}")
+elif hours < "40":
+    print(f"You have worked {hours} hours you will be paid {pay}")
 
 # if film_rating.lower() == "universal":
 #     print("All age groups can watch this film")

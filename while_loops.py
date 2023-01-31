@@ -33,11 +33,10 @@ x = 0
 
 user_promt = True
 
-# while user_promt:
-#     age = input("What is your age?")
-#     if age.isdigit() and int(age) < 117:
-#         user_promt = False
-#     else:
-#         print("Please provide your answer in digits and below 117")
-# print(f"Your age is {age}")
+while user_promt:
+     age = input("What is your age?")
+if age.isdigit() and int(age) < 117:
+         user_promt = False
+else:
+         print("Please provide your answer in digits and below 117") # print(f"Your age is {age}")
 
