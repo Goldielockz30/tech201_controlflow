@@ -8,7 +8,8 @@
 # else:
 #     print("Please provide your answer in digits and below 117")
 
-film_rating = input("What is your age?")
+age = input("What is your age?")
+film_rating = "18"
 
 if film_rating.isdigit() and int(film_rating) < 117:
     print(f"You are {film_rating} years old ")
