@@ -8,16 +8,16 @@ tech201_controlflow
 
 ### If statement
 
-age = 15
+```age = 15
 
 if age >= 18:
      print("You are the correct age to watch this film and can buy a ticket")  
 
  if age < 18:  
      print("I'm affraid you cannot watch this movie you are not old enough")
-
+```
 ### elif and else
-
+```
 film_rating = "18"  
 if film_rating.lower() == "universal":  
     print("All age groups can watch this film")  
@@ -31,5 +31,5 @@ elif film_rating.lower() == "18":
     print("You must be 18 to watch 18 rated movies in the cinema")   
 else:
     print("This is not a correct rating, please use universal, pg, 12, 15, 18")  
-
+```
 ### In python there's no 'switch statements' or 'case statements'
