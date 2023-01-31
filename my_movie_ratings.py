@@ -9,14 +9,13 @@
 #     print("Please provide your answer in digits and below 117")
 
 age = input("What is your age?")
+
 if age <= "11":
     print("12 rated movies may not be suitable for those under 12, but supervision is recommended")
-elif int(age) == int("12") and int(age) > int("18"):
+elif int(age) == int("12") or int(age) < int("18"):
     print("You can watch U, PG and 12 rated movies")
 elif int(age) >= int("18"):
-    print("You can watch this movie since you are 18 or over")
-else :
-    print("Please provide your answer in digits and below 117")
+    print("You can watch all movies since you are 18 or over")
 
 
 # elif age == "15":
