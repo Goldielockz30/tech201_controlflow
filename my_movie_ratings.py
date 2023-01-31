@@ -11,7 +11,7 @@
 age = input("What is your age?")
 
 if age <= "11":
-    print("12 rated movies may not be suitable for those under 12, but supervision is recommended")
+    print("You can watch U rated movies and PG")
 elif int(age) == int("12") or int(age) < int("18"):
     print("You can watch U, PG and 12 rated movies")
 elif int(age) >= int("18"):
