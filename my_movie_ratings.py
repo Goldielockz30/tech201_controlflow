@@ -2,7 +2,7 @@
 age = input("What is your age?")
 
 if int(age.isdigit()) and int(age) > int("117") and int(age) != int("0"):
-    print("Please provide your answer in digits, with age 1 and about and below 117")
+    print("Please provide your answer in digits, with age 1 and above and below 117")
 elif int(age.isdigit()) and int(age) <= int("11") and int(age) != int("0"):
     print("You can watch U rated movies and PG")
 elif int(age.isdigit()) and int(age) == int("12") and int(age) < int("18"):
