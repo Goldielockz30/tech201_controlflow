@@ -1,5 +1,5 @@
 
-age = input("What is your age?")
+age = input("What is your age? ")
 
 if int(age.isdigit()) and int(age) > int("117") and int(age) != int("0"):
     print("Please provide your answer in digits, with age 1 and above and below 117")
