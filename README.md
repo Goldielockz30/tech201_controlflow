@@ -8,7 +8,8 @@ tech201_controlflow
 
 ### If statement
 
-```age = 15
+```python
+age = 15
 
 if age >= 18:
      print("You are the correct age to watch this film and can buy a ticket")  
@@ -17,7 +18,7 @@ if age >= 18:
      print("I'm affraid you cannot watch this movie you are not old enough")
 ```
 ### elif and else
-```
+```python
 film_rating = "18"  
 if film_rating.lower() == "universal":  
     print("All age groups can watch this film")  
@@ -40,7 +41,7 @@ else:
 ### A for loop is where you define an iterator number and cycle through data (list or dictionary) 'for each' entry in that data structure
 
 ### Creating a for loop
-```
+```python
 list_data = [1, 2, 3, 4, 5]  
 embedded_lists = [[1, 2, 3] , [4, 5, 6]]  
 
@@ -67,7 +68,7 @@ for data in embedded_lists:
 # loops for dictionaries
 
 ### to get all values back from the dictionary
-```
+```python
 for item in dict_data.values():  
    print(item)  
 
@@ -85,14 +86,14 @@ for item in dict_data.values():
         print(embed_value) # print statements needs to be embedded
 ```
 ### to get a particular value from a key
-```
+```python
 for items in dict_data.values():
     print(items['money'])
 ```
 ### please see Python documentation for more you can do with dictionaries and loops
 
 ### Loops and if statements
-```
+```python
 list_1 = [1, 2, 3, 4, 5]  
 
 for num in list_1:  
@@ -111,7 +112,7 @@ for num in list_1:
 what is the value of x
 how does compare to this value
 we only do get something if this comparison is true
-```
+```python
 x = 0
 
 while x <  10:
@@ -119,7 +120,7 @@ while x <  10:
     x += 1 # incrementer
 ```
 ### Using break
-```
+```python
 while x < 10:
      print(f"it's working -> {x}")
      if x == 4:
@@ -130,7 +131,7 @@ while x < 10:
 ```
 ### verify user input
 This can either be an int (20) or string (twenty)  
-```
+```python
 age = input("What is your age?")
 
 print(f"Your age is {age}")
@@ -154,7 +155,7 @@ else:
 what is the value of x  
 how does compare to this value  
 we only do get something if this comparison is true  
-```
+```python
 x = 0
 
 while x <  10:  
@@ -162,18 +163,18 @@ while x <  10:
     x += 1 # incrementer  
 ```
 # Using break
-```
+```python
 while x < 10:  
     print(f"it's working -> {x}")  
     if x == 4:  
        break # this stops the while loop  
     x += 1  
-```
-print(x) # x = 4
 
+print(x) # x = 4
+```
 # verify user input
 ### This can either be an int (20) or string (twenty)
-```
+```python
 age = input("What is your age?")  
 
 print(f"Your age is {age}")  
